@@ -1,0 +1,252 @@
+81 issues: 
+#80117     dsnet encoding/json/jsontext: Decoder.Reset and Encoder.Reset
+#75475  falco467 proposal: encoding/json/jsontext: add Encoder.Flush met
+#80115     dsnet encoding/json/jsontext: make trailing comma error more 
+#40127  rogpeppe encoding/json: add Encoder.EncodeToken method
+#80116     dsnet encoding/json/v2: WithinArshalCall check does not work 
+#61368    zyxkad proposal: encoding/json.Encoder: add `ZeroizeNilSlice` 
+#7872  extempora encoding/json: Encoder internally buffers full output
+#79559     dsnet encoding/json/v2: support changing whitespace options i
+#74322    mhoury proposal: encoding/json/v2: MarshallJSONTo: Skip fields
+#64515 KumanekoS proposal: encoding/json: allow struct encoder to handle
+#71664     dsnet proposal: encoding/json/v2: add support for user-define
+#5901        rsc encoding/json: allow per-Encoder/per-Decoder registrati
+#73457 torbensch proposal: encoding/json/v2: MarshalFunc with reflect.Ty
+#22967    larhun encoding/json: bad encoding of field with MarshalJSON m
+#22480     blixt proposal: encoding/json: add omitnil option
+#27366    cblach proposal: encoding/json: Support for nested values in J
+#16212 josharian encoding/json: do all reflect work before decoding
+#75827 jacobzim- proposal: encoding/json/v2: escape hatch to omit & over
+#33422  rittneje encoding/json: marshaling RawMessage has poor performan
+#32055 docmerlin encoding/json: interface{} not being stringified when J
+#76406 aclements encoding/json/v2: working group meeting minutes
+#14804 cyberphon encoding/json: marshaller does not provide Base64Url su
+#27735     dsnet encoding/json: incorrect usage of sync.Pool
+#21990 marwan-at proposal: encoding/json: support struct tag for time.Fo
+#74646 masterkey log/slog: reduce allocs on Any value handling
+#11046     kurin encoding/json: Decoder internally buffers full input
+#20206 markdryan encoding/base64: encoding is slow
+#48899 HymnsForD encoding/json: returned io.Writer errors can be confusi
+#56733 rolandsho proposal: encoding/json/jsontext: add WithByteLimit and
+#25153 dominicba encoding/json: include property name for marshal errors
+
+<h1>81 issues</h1>
+<table>
+<tr style='text-align: left'>
+<th>#</th>
+<th>State</th>
+<th>User</th>
+<th>Title</th>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/80117'>80117</td>
+<td>open</td>
+<td><a href='https://github.com/dsnet'>dsnet</a></td>
+<td><a href='https://github.com/golang/go/issues/80117'>encoding/json/jsontext: Decoder.Reset and Encoder.Reset should allow nil</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/75475'>75475</td>
+<td>open</td>
+<td><a href='https://github.com/falco467'>falco467</a></td>
+<td><a href='https://github.com/golang/go/issues/75475'>proposal: encoding/json/jsontext: add Encoder.Flush method</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/80115'>80115</td>
+<td>open</td>
+<td><a href='https://github.com/dsnet'>dsnet</a></td>
+<td><a href='https://github.com/golang/go/issues/80115'>encoding/json/jsontext: make trailing comma error more clear</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/40127'>40127</td>
+<td>open</td>
+<td><a href='https://github.com/rogpeppe'>rogpeppe</a></td>
+<td><a href='https://github.com/golang/go/issues/40127'>encoding/json: add Encoder.EncodeToken method</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/80116'>80116</td>
+<td>open</td>
+<td><a href='https://github.com/dsnet'>dsnet</a></td>
+<td><a href='https://github.com/golang/go/issues/80116'>encoding/json/v2: WithinArshalCall check does not work for nested calls</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/61368'>61368</td>
+<td>open</td>
+<td><a href='https://github.com/zyxkad'>zyxkad</a></td>
+<td><a href='https://github.com/golang/go/issues/61368'>proposal: encoding/json.Encoder: add `ZeroizeNilSlice` option</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/7872'>7872</td>
+<td>open</td>
+<td><a href='https://github.com/extemporalgenome'>extemporalgenome</a></td>
+<td><a href='https://github.com/golang/go/issues/7872'>encoding/json: Encoder internally buffers full output</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/79559'>79559</td>
+<td>open</td>
+<td><a href='https://github.com/dsnet'>dsnet</a></td>
+<td><a href='https://github.com/golang/go/issues/79559'>encoding/json/v2: support changing whitespace options in MarshalEncode</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/74322'>74322</td>
+<td>open</td>
+<td><a href='https://github.com/mhoury'>mhoury</a></td>
+<td><a href='https://github.com/golang/go/issues/74322'>proposal: encoding/json/v2: MarshallJSONTo: Skip fields when marshalling to json</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/64515'>64515</td>
+<td>open</td>
+<td><a href='https://github.com/KumanekoSakura'>KumanekoSakura</a></td>
+<td><a href='https://github.com/golang/go/issues/64515'>proposal: encoding/json: allow struct encoder to handle undefined fields</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/71664'>71664</td>
+<td>open</td>
+<td><a href='https://github.com/dsnet'>dsnet</a></td>
+<td><a href='https://github.com/golang/go/issues/71664'>proposal: encoding/json/v2: add support for user-defined format flags and option values</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/5901'>5901</td>
+<td>open</td>
+<td><a href='https://github.com/rsc'>rsc</a></td>
+<td><a href='https://github.com/golang/go/issues/5901'>encoding/json: allow per-Encoder/per-Decoder registration of marshal/unmarshal functions</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/73457'>73457</td>
+<td>open</td>
+<td><a href='https://github.com/torbenschinke'>torbenschinke</a></td>
+<td><a href='https://github.com/golang/go/issues/73457'>proposal: encoding/json/v2: MarshalFunc with reflect.Type</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/22967'>22967</td>
+<td>open</td>
+<td><a href='https://github.com/larhun'>larhun</a></td>
+<td><a href='https://github.com/golang/go/issues/22967'>encoding/json: bad encoding of field with MarshalJSON method </a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/22480'>22480</td>
+<td>open</td>
+<td><a href='https://github.com/blixt'>blixt</a></td>
+<td><a href='https://github.com/golang/go/issues/22480'>proposal: encoding/json: add omitnil option</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/27366'>27366</td>
+<td>open</td>
+<td><a href='https://github.com/cblach'>cblach</a></td>
+<td><a href='https://github.com/golang/go/issues/27366'>proposal: encoding/json: Support for nested values in JSON tags</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/16212'>16212</td>
+<td>open</td>
+<td><a href='https://github.com/josharian'>josharian</a></td>
+<td><a href='https://github.com/golang/go/issues/16212'>encoding/json: do all reflect work before decoding</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/75827'>75827</td>
+<td>open</td>
+<td><a href='https://github.com/jacobzim-stl'>jacobzim-stl</a></td>
+<td><a href='https://github.com/golang/go/issues/75827'>proposal: encoding/json/v2: escape hatch to omit &amp; override field</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/33422'>33422</td>
+<td>open</td>
+<td><a href='https://github.com/rittneje'>rittneje</a></td>
+<td><a href='https://github.com/golang/go/issues/33422'>encoding/json: marshaling RawMessage has poor performance</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/32055'>32055</td>
+<td>open</td>
+<td><a href='https://github.com/docmerlin'>docmerlin</a></td>
+<td><a href='https://github.com/golang/go/issues/32055'>encoding/json: interface{} not being stringified when JSON &#34;,string&#34; tag is used</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/76406'>76406</td>
+<td>open</td>
+<td><a href='https://github.com/aclements'>aclements</a></td>
+<td><a href='https://github.com/golang/go/issues/76406'>encoding/json/v2: working group meeting minutes</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/14804'>14804</td>
+<td>open</td>
+<td><a href='https://github.com/cyberphone'>cyberphone</a></td>
+<td><a href='https://github.com/golang/go/issues/14804'>encoding/json: marshaller does not provide Base64Url support</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/27735'>27735</td>
+<td>open</td>
+<td><a href='https://github.com/dsnet'>dsnet</a></td>
+<td><a href='https://github.com/golang/go/issues/27735'>encoding/json: incorrect usage of sync.Pool</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/21990'>21990</td>
+<td>open</td>
+<td><a href='https://github.com/marwan-at-work'>marwan-at-work</a></td>
+<td><a href='https://github.com/golang/go/issues/21990'>proposal: encoding/json: support struct tag for time.Format in JSON Marshaller/Unmarshaller</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/pull/74646'>74646</td>
+<td>open</td>
+<td><a href='https://github.com/masterkeysrd'>masterkeysrd</a></td>
+<td><a href='https://github.com/golang/go/pull/74646'>log/slog: reduce allocs on Any value handling</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/11046'>11046</td>
+<td>open</td>
+<td><a href='https://github.com/kurin'>kurin</a></td>
+<td><a href='https://github.com/golang/go/issues/11046'>encoding/json: Decoder internally buffers full input</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/20206'>20206</td>
+<td>open</td>
+<td><a href='https://github.com/markdryan'>markdryan</a></td>
+<td><a href='https://github.com/golang/go/issues/20206'>encoding/base64: encoding is slow</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/48899'>48899</td>
+<td>open</td>
+<td><a href='https://github.com/HymnsForDisco'>HymnsForDisco</a></td>
+<td><a href='https://github.com/golang/go/issues/48899'>encoding/json: returned io.Writer errors can be confusing without wrapping</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/56733'>56733</td>
+<td>open</td>
+<td><a href='https://github.com/rolandshoemaker'>rolandshoemaker</a></td>
+<td><a href='https://github.com/golang/go/issues/56733'>proposal: encoding/json/jsontext: add WithByteLimit and WithDepthLimit</a></td>
+</tr>
+
+<tr>
+<td><a href='https://github.com/golang/go/issues/25153'>25153</td>
+<td>open</td>
+<td><a href='https://github.com/dominicbarnes'>dominicbarnes</a></td>
+<td><a href='https://github.com/golang/go/issues/25153'>encoding/json: include property name for marshal errors</a></td>
+</tr>
+
+</table>
